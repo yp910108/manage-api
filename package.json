@@ -1,0 +1,25 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "always"
+  },
+  "dependencies": {
+    "koa": "2.11.0",
+    "mongoose": "5.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.2"
+  }
+}
